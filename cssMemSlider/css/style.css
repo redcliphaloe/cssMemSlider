@@ -30,7 +30,8 @@ body {
 }
 
 input {
-    display: none;
+    width: 0;
+    height: 0;    
 }
 
 .slider-image {
@@ -161,10 +162,6 @@ input {
         max-height: calc(100vw * 0.9 / 1.4 * 100 / 55);
         font-size: 1.25rem;
     }
-
-    input {
-        margin: 2%;
-    }    
 
     .slider-image {
         height: 55%;
