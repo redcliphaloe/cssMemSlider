@@ -9,25 +9,29 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>    
-    <div class="wrapper">       
+    <div class="wrapper">        
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+        <input type="radio" name="point" id="slide4">        
         <div class="slider-image">
-            <div class="slides slide1"></div>
-            <div class="slides slide2 hidden"></div>
-            <div class="slides slide3 hidden"></div>
-            <div class="slides slide4 hidden"></div>            
+            <div class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
         </div>
         <div class="slider-text">
-            <label for="slide1">Если посудомоечная машина сломалась</label>
-            <label class="hidden" for="slide2">404: куртка не найдена</label>
-            <label class="hidden" for="slide3">В отделе для лохов</label>
-            <label class="hidden" for="slide4">Во всем нужно видеть позитив</label>            
-        </div>	        	
-        <div class="slider-controls">
-            <input type="radio" name="point" id="slide1" checked>
-            <input type="radio" name="point" id="slide2">
-            <input type="radio" name="point" id="slide3">
-            <input type="radio" name="point" id="slide4">           
+            <div class="text">Если посудомойка сломалась</div>
+            <div class="text">404: куртка не найдена</div>
+            <div class="text">В отделе для лохов</div>
+            <div class="text">Во всем нужно видеть позитив</div>
         </div>
+        <div class="slider-control">
+            <label class="control" for="slide1"><span class="point"></span></label>
+            <label class="control" for="slide2"><span class="point"></span></label>
+            <label class="control" for="slide3"><span class="point"></span></label>
+            <label class="control" for="slide4"><span class="point"></span></label>           
+        </div>        
     </div>
 </body>
 </html>
